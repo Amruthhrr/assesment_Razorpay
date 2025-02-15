@@ -1,42 +1,33 @@
-# Firebase Course Android Kotlin Project with Jetpack Compose and MVVM Architecture
+# Firebase Android Kotlin Project with Jetpack Compose and MVVM Architecture
 
-This repository contains a sample Android Kotlin project developed using Jetpack Compose and the MVVM architectural pattern. The project demonstrates how to integrate various Firebase services, such as Authentication, Analytics, Crashlytics, Cloud Storage, and Firestore, into an app that allows users to log in, view and post tweets with text or images.
+This repository contains a sample Android Kotlin project developed using Jetpack Compose and the MVVM architectural pattern. The project demonstrates the integration of various Firebase services, including Authentication, Analytics, Crashlytics, and Firestore, enabling users to log in, view, and post tweets. Additionally, it incorporates Room for local database storage, Retrofit for API communication, Coroutines for asynchronous operations, and LiveData for reactive UI updates, ensuring a seamless and efficient user experience.
 
 ## Features
 
+- This project integrates Firebase to handle Analytics, Crashlytics, Authentication, real-time data storage, and other functionalities.
 - Login, registration, and password recovery using Firebase Authentication
 - Tracking app usage and crashes with Firebase Analytics and Crashlytics
-- Viewing a list of tweets related to a user
-- Posting new text or image tweets
-- Uploading images to Cloud Storage and saving messages to Firestore 
-- Receiving Push Notifications
+- This project utilizes Room Database for local storage and Retrofit for fetching quotes from an API.
 
-## Project Structure
 
-The project contains four ViewModel interfaces, each corresponding to a specific Firebase service:
 
-- AuthViewModelInterface: Responsible for authentication-related functionality, such as login, registration, and password recovery
-- LogViewModelInterface: Handles tracking of application usage and crashes
-- StorageViewModelInterface: Manages interactions with Firebase Cloud Storage, such as uploading and retrieving image files
-- TweetsViewModelInterface: Handles the creation, retrieval, and storage of tweets
+## Setup and run instructions
 
-These interfaces allow for easy swapping between dummy implementations and Firebase implementations. Dummy implementations are provided for development and testing purposes, while Firebase implementations are used for production.
 
-## Getting Started
-
-To get started with the project, follow these steps:
-
-1. Clone the repository: git clone https://github.com/yourusername/firebase-course-android-kotlin.git
+1. Clone the repository
 2. Open the project in Android Studio and sync the Gradle files
 3. Set up a Firebase project and connect it to the Android app by following the instructions in the official documentation
 4. Enable the required Firebase services (Authentication, Analytics, Crashlytics, Cloud Storage, and Firestore) in the Firebase console
-5. Replace the dummy implementations of the ViewModel interfaces with the corresponding Firebase implementations
-6. Build and run the app on an emulator or physical device
+5. Build and run the app on an emulator or physical device
 
-## Contributions
+![Screenshot (13785)](https://github.com/user-attachments/assets/1b395a91-bf75-46ea-8782-ab223bd7e652)
 
-Feel free to contribute to this project by submitting pull requests or reporting issues. If you have any questions, please open an issue and the maintainers will get back to you as soon as possible.
+![Screenshot (13786)](https://github.com/user-attachments/assets/25716084-7937-4c0f-b8d9-a4bafbf3ebc0)
 
-## License
+![Screenshot (13784)](https://github.com/user-attachments/assets/1402ff1c-d9b5-4201-9eee-3fcd381a09aa)
 
-This project is licensed under the MIT License. For more information, please see the LICENSE file.
+![Screenshot (13787)](https://github.com/user-attachments/assets/a355edf0-01b0-4272-9448-d032c8927bde)
+
+![Screenshot (13781)](https://github.com/user-attachments/assets/b77f7454-e3c7-4cac-98ab-89d07aa731db)
+
+
