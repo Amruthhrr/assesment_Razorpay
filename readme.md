@@ -20,7 +20,14 @@ This repository contains a sample Android Kotlin project developed using Jetpack
 4. Enable the required Firebase services (Authentication, Analytics, Crashlytics, Cloud Storage, and Firestore) in the Firebase console
 5. Build and run the app on an emulator or physical device
 
+
+## Please find the working app video below
+
 https://drive.google.com/drive/folders/1OsuffIZNipTUrTeMkwNX9HUULlGlKuFA
+
+
+
+
 
 ![Screenshot (13785)](https://github.com/user-attachments/assets/1b395a91-bf75-46ea-8782-ab223bd7e652)
 
